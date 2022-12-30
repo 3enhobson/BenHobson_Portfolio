@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../../components/navbar'
 import SectionTitle from '../../components/SectionTitle'
 import Pic from '../../css/Ben_picture.png'
 
@@ -12,10 +13,11 @@ function About() {
         "MongoDB"
     ]
     return (
-        <div>
+        <div className='bg-primary h-full'>
+            <Navbar />
             <SectionTitle title="About" />
 
-            <div className='flex w-full items-center'>
+            <div className='flex w-full items-center sm:flex-col '>
                 <img className='h-[50vh] ' src={Pic} />
                 <div className='flex flex-col gap-5'>
                     <p className='text-white px-10'>
@@ -26,8 +28,8 @@ function About() {
                 </div>
             </div>
 
-            <div className='py-5'>
-                <h1 className='text-white font-semi text-xl'>Here are a few technologies I have been working with recently:</h1>
+            <div className='py-5 pl-10'>
+                <h1 className='text-white font-semi  text-xl'>Here are a few technologies I have been working with recently:</h1>
                 <div className='flex flex-wrap gap-10 mt-5'>
                 {skills.map((skill,index) => (
                     <div className='border border-tertiary py-3 px-5'>

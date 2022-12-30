@@ -12,6 +12,13 @@ module.exports = {
         "quartenary" : "#666666"
       }
     },
+    screens: {
+  
+      lg: { max: '2023px' },
+     
+      sm: { max: '1170px' },
+      
+    }
   },
   plugins: [],
 }
