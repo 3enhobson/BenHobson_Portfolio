@@ -10,9 +10,9 @@ import Navbar from '../../components/navbar';
 function Home() {
     return (
         <div >
-            <Navbar />
-            <div className='bg-primary px-40 sm:px-5'>
-                <Intro />
+        
+            <div className='bg-primary  px-40 sm:px-5'>
+                
                 
                 
             </div>

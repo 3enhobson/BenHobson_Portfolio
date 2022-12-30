@@ -13,7 +13,7 @@ function Navbar() {
         <div className='shadow-md w-full fixed top-0 left-0'>
             <div className="lg:flex items-center justify-between bg-tertiary py-4 sm:px-10 px-7">
                 <div className='font-bold text-2xl cursor-pointer  items-center text-white'>
-                    Ben
+                    BH
                 </div>
                 <ul className='lg:flex lg:items-center'>
                     {
